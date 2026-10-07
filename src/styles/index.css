@@ -1,0 +1,36 @@
+:root {
+  --primary-green: #008751;
+  --secondary-blue: #00A3E0;
+  --accent-gold: #FFC72C;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.bg-shehia-primary {
+  background-color: var(--primary-green) !important;
+}
+
+.text-shehia-primary {
+  color: var(--primary-green) !important;
+}
+
+.btn-shehia-primary {
+  background-color: var(--primary-green);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-shehia-primary:hover {
+  background-color: #006b40;
+  color: #ffffff;
+}
+
+.card-custom {
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 10px;
+}
